@@ -1,0 +1,141 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: var(--grayblack-color);
+}
+
+nav {
+    background-color: #fff !important;
+}
+
+nav button {
+    border: 0 !important;
+}
+
+nav ul li a {
+    color: var(--gray-color) !important;
+    margin-left: 2rem;
+    font-weight: 700 !important;
+}
+
+nav li.active a,
+nav li a.active {
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+
+nav ul li a :hover {
+    color: var(--yellow-color) !important;
+}
+
+nav .logo-text {
+    align-items: center;
+}
+
+nav .logo br {
+    color: var(--yellow-color) !important;
+}
+
+.text-success {
+    color: #04809A !important;
+    font-weight: 700;
+}
+
+.nav-drop {
+    min-width: 45rem;
+    top: calc(100% + 5rem +0.5rem) !important;
+    left: -30rem !important;
+    margin: 1rem 0 !important;
+    border: 0;
+    box-shadow: 0 0.15rem 1.75rem rgba(31, 45, 65, 0.15);
+}
+
+.nav-col a {
+    margin-left: 0 !important;
+}
+
+nav .dropdown-menu a {
+    color: #1f2d41 !important;
+    font-weight: 400 !important;
+}
+
+nav .dropdown-menu a:active {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.hr {
+    border: 3px solid #04809A;
+    width: 20%;
+}
+
+.dropdown .dropdown-toggle .dropdown-arrow {
+    margin-left: auto;
+    margin-right: -0.5rem;
+    font-size: 0.6rem !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.svg-inline--fa.fa-w-10 {
+    width: 0.625em;
+    margin-left: 8px !important;
+}
+
+.home-content {
+    margin-top: -3rem;
+}
+
+.home-content .row .col {
+    background-color: #fff;
+    box-shadow: 0 0.15rem 1.75rem rgba(31, 45, 65, 0.15);
+    border-radius: 12px;
+}
+
+.home-content .row .col h5 {
+    color: #000 !important;
+}
+
+.head-profile {
+    background-image: url(./img/header-fkk.png);
+    min-height: 30vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:576px) {
+
+    html,
+    body {
+        font-size: 80%;
+    }
+
+    nav .logo-text {
+        margin-left: -2rem !important;
+    }
+
+    .home-content {
+        margin-top: 1rem !important;
+    }
+
+    .home-content svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .home-content h5 {
+        font-size: 12px;
+    }
+
+    .home-content a {
+        margin-bottom: 12px;
+    }
+}
